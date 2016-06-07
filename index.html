@@ -2,19 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body  style="background-color:lightyellow">
+
 <div style="color:blue; font-size: 40px">
 <h1 class="heading">I am a heading</h1>
-<img class="image" src="https://media.giphy.com/media/Q42cpzgcUeZkA/giphy-facebook_s.jpg">
+<img id="cat" class="image" src="https://raw.githubusercontent.com/IsaKiko/D3-visualising-data/gh-pages/code/cat.jpg"/>
+<button id=feed_button type="button">Feed Me!</button>
+<button id=run_button type="button">Exercise!</button>
 </div>
-<svg class="chart">
+<div class="description">
+Hello back!
+</div>
+<svg class="border">
 <circle cx='55' cy='75' r='15' class="circ">
 </circle>
 <rect x="42" y="95" width="30" height="50" class="rectangle">
 </rect>
 <polygon points="40,40 60,60 80,40 70,25 50,25" style="fill:lime;stroke:purple;stroke-width:1" class="polyg">
+
 </polygon>
 <line x1="42" y1="95" x2="15" y2="60" style="stroke:purple;stroke-width:2">
 </line>
@@ -22,7 +30,12 @@
 </line>
 </svg>
 <div class="text">
-Unfortunately this is a half-done version.
+Are the results as you expected? Does the best t model produce the best
+prediction of protability? If not, which model generates the best forecast?
+Make sure you support your arguments using appropriate summaries/statistical
+assessments.Two vector spaces can also be downloaded in CSV format, namely: a beta version of IsaCore, a strongly-connected core of hyponym-hypernym common knowledge, and AffectiveSpace, the 100-dimensional vector space representation of AffectNet (a matrix of affective common sense knowledge, also available for download in CSV format) upon which SenticNet is built.
 </div>
+<script src="interaction.js">
+</script>
 </body>
 </html>
