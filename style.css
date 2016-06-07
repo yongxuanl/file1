@@ -1,0 +1,36 @@
+.heading
+{
+color:yellowgreen; 
+font-size: 40px
+}
+.description
+{
+color:green; 
+font-size: 20px
+}
+.text
+{
+border-left-style: solid;
+color:black; 
+font-size: 20px;
+background-color: lightblue;
+padding: 10px
+}
+.image
+{
+	width:200px;
+	position:relative;
+	left:20px;
+}
+.polyg
+{
+	fill:lightblue;
+}
+.circ
+{
+	fill:lavender;
+}
+.rectangle
+{
+	fill:darkblue;
+}
